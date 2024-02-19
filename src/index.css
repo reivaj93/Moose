@@ -1,0 +1,81 @@
+body{
+  background-color: #ebd792;
+  color: black;
+  text-align: center;
+}
+
+.offcanvas{
+  background-color: black;
+  color: blanchedalmond;
+
+
+}
+
+.nav-link{
+  color: white;
+}
+
+.textbox-title{
+  margin-top: 2.5%;
+}
+
+.textbox-container{
+  flex: content;
+  flex-wrap: wrap;
+  padding-left: 10%;
+  padding-right: 10%;
+  
+}
+
+.botonNav{
+  background-color: black; 
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15%;
+  
+}
+
+.footer{
+  background-color: black;
+  color: white;
+}
+.carousel {
+  width: 100%;  /* Asegura que el carrusel ocupe el 75% del ancho de la pantalla */
+  margin: auto;  /* Centra el carrusel en la pantalla */
+}
+
+.carousel-item img {
+  width: 100%;  /* Asegura que la imagen se ajuste al ancho del carrusel */
+  height: 575px;  /* Cambia este valor al alto que desees */
+  object-fit: cover;  /* Asegura que las imágenes se redimensionen correctamente */
+
+  /* Agrega un borde sombreado a las imágenes */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.LandingMenu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.SocialNet-bar{
+  background-color: #ebd792;
+  color: #e4692c;
+  display: flex;
+  justify-content: center;
+
+}
+
+.SocialNet-buttom{
+  background-color: #ebd792;
+  text-decoration: none;
+  border: none;
+
+}
+
