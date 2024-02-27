@@ -5,7 +5,11 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Moosetry from './pages/Moose';
 import Carta from './pages/Carta';
-import Ubicanos from './pages/Ubicanos';
+import Referencias from './pages/Referencias'
+import Ubicanos from './pages/Ubicanos'
+import Blog from './pages/Blog'
+import QuienesSomos from './pages/QuienesSomos'
+import Title from './assets/title'
 
 
 
@@ -15,24 +19,25 @@ function App() {
 
   return (
     <>
-
-          <BrowserRouter>
-          <nav>
-          <Link to="/">Moose</Link> |
-          <Link to="/Carta">Acerca de</Link> |
-          <Link to="/Ubicanos">Contacto</Link>
-          </nav>
-          <Routes>
-          <Route path="/" element={<Moosetry />} />
-          <Route path="/Carta" element={<Carta/>} />
-          <Route path="/Ubicanos" element={<Ubicanos />} />
-          </Routes>
-        </BrowserRouter>
-
+       
+         
+       <BrowserRouter>
+      <div className="GridRouter">
+        <Link to="/" id="Router1">
+          <img src="../public/images/Moose vec1.png" alt="Moose"width={"200px "} />
+        </Link>
+        <Link to="/QuienesSomos" id="Router2">QUIENES SOMOS</Link>
+        <Link to="/Carta" id="Router3">MENÚ</Link>
+        <Link to="/Ubicanos" id="Router4">UBICANOS</Link>
+      </div>
+      <Routes>
+        <Route path="/" element={<Moosetry />} />
+        <Route path="/QuienesSomos" element={<QuienesSomos />} />
+        <Route path="/Carta" element={<Carta />} />
+        <Route path="/Ubicanos" element={<Ubicanos />} />
+      </Routes>
+    </BrowserRouter>
   
-      
-
-      
 
     </>
   )

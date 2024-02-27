@@ -1,12 +1,12 @@
-import React from "react";  
+import React from 'react';
+
 
 function Ubicanos() {
-
-    return(
-
-       <h1> Aca va el mapita</h1>
-
-    )
+  return (
+    <>
+  
+    </>
+  );
 }
 
-export default Ubicanos
+export default Ubicanos;
