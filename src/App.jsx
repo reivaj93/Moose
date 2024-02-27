@@ -26,7 +26,7 @@ function App() {
         <Link to="/" id="Router1">
           <img src="../public/images/Moose vec1.png" alt="Moose"width={"200px "} />
         </Link>
-        <Link to="/QuienesSomos" id="Router2">QUIENES SOMOS</Link>
+        <Link to="/QuienesSomos" id="Router2">Conocenos</Link>
         <Link to="/Carta" id="Router3">MENÚ</Link>
         <Link to="/Ubicanos" id="Router4">UBICANOS</Link>
       </div>
